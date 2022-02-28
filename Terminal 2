@@ -1,0 +1,33 @@
+etien@DESKTOP-N5PS76A MINGW64 ~/quests/shell
+$ find
+.
+./apple
+./apricot
+./banana
+./carrot
+./cauliflower
+./copy-of-fruits
+./copy-of-fruits/apple
+./copy-of-fruits/apricot
+./copy-of-fruits/banana
+./copy-of-fruits/orange
+./courgette
+./fruits
+./fruits/apple
+./fruits/apricot
+./fruits/banana
+./fruits/orange
+./parsnip
+./vegetables
+
+
+  162  mkdir real fictional inhabited
+  163  cd real
+  164  mkdir terrestrial gas-giants dwarf-planets
+  165  cd ../
+  166  mv earth.jpeg jupiter.jpeg mars.jpeg mercury.jpeg neptune.jpeg pluto.jpeg saturn.jpeg uranus.jpeg venus.jpeg real/
+  167  mv arrakis.jpeg coruscant.jpeg cybertron.jpeg fictional/
+  168  cp fictional/arrakis.jpeg fictional/coruscant.jpeg fictional/cybertron.jpeg real/earth.jpeg inhabited/
+  169  rm -R real/pluto.jpeg
+  170  rm real
+  171  rm -R real
